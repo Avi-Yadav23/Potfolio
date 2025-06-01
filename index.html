@@ -3,101 +3,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avi Yadav | Resume</title>
+    <title>Avi Yadav - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Avi Yadav</h1>
-            <p class="contact">
-                <span>8527775023</span> |
-                <a href="mailto:avi4551@gmail.com">avi4551@gmail.com</a> |
-                <a href="https://linkedin.com/in/AviAxi" target="_blank">LinkedIn</a> |
-                <a href="https://github.com/avi" target="_blank">GitHub</a>
-            </p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo">Avi Yadav</h1>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
-    </header>
-    <main class="container">
-        <section>
-            <h2>Education</h2>
-            <ul class="timeline">
-                <li><strong>Vellore Institute of Technology</strong>, Vellore, Tamil Nadu<br>Bachelor of Arts in Computer Science, Minor in Business (2022 - Present)</li>
-                <li><strong>Prince Udh Madyamik Vidyalaya</strong>, Sikar, Rajasthan<br>CBSE (Class XII) (2020 - 2022)</li>
-                <li><strong>Ryan International School</strong>, Gurgaon, Haryana<br>CBSE (Class X) (2007 - 2020)</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Experience</h2>
-            <div class="exp-item">
-                <h3>Team Levitate Hyperloop (Technical Division) <span>2024</span></h3>
-                <h4>Software & Simulation Engineer, Vellore</h4>
-                <ul>
-                    <li>Contributed to the UI/UX and performance optimization of the official team website.</li>
-                    <li>Focused on rendering 3D visualizations and ensuring real-time interactivity with Three.js.</li>
-                    <li>Assisted in building embedded logic modules for the Hyperloop pod’s onboard systems.</li>
-                </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Avi Yadav</h1>
+            <p class="hero-subtitle">Software Engineer</p>
+            <div class="hero-contact">
+                <p>📧 avi5451@gmail.com</p>
+                <p>🔗 https://www.linkedin.com/in/avi-yadav-a10016275/</p>
+                <p>💻 https://github.com/Avi-Yadav23</p>
             </div>
-            <div class="exp-item">
-                <h3>E-Cell, VIT (Entrepreneurship Cell) <span>2023</span></h3>
-                <h4>Club Member – Event Coordination & Outreach, Vellore</h4>
-                <ul>
-                    <li>Supported outreach operations and external collaborations for entrepreneurship-based activities.</li>
-                    <li>Helped execute flagship events like E-Summit and Futurepreneurs, including logistics and on-ground coordination.</li>
-                </ul>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
             </div>
-        </section>
-        <section>
-            <h2>Certifications</h2>
-            <ul>
-                <li><strong>NPTEL Forest Management</strong><br>Enhanced understanding of sustainable forest management practices, ecological conservation, and resource planning.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Heart Disease Prediction <span>| Python, Streamlit</span> <span class="date">June 2025 – Present</span></h3>
-                <ul>
-                    <li>Loaded and preprocessed the heart disease dataset using pandas and numpy, including handling missing values, feature selection, and data normalization to prepare for machine learning modeling.</li>
-                    <li>Split the dataset into training and testing sets using scikit-learn’s train_test_split function to ensure robust model evaluation and prevent data leakage.</li>
-                    <li>Built and trained multiple machine learning models (e.g., K-Nearest Neighbors, Decision Tree, Random Forest) using scikit-learn, and optimized their performance through hyperparameter tuning and cross-validation.</li>
-                    <li>Deployed the trained models as an interactive web application using Streamlit, enabling real-time heart disease risk prediction based on user-input medical parameters.</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Official Website for Team Levitate Hyperloop <span>| HTML, CSS, JavaScript, Three.js</span> <span class="date">2024</span></h3>
-                <ul>
-                    <li>Contributed to the development and layout structuring of the team website.</li>
-                    <li>Worked on refining animations and enhancing performance for mobile responsiveness.</li>
-                    <li>The site reflects futuristic Hyperloop design cues with an emphasis on usability and clarity.</li>
-                    <li><a href="http://www.levitatehyperloop.com" target="_blank">levitatehyperloop.com</a></li>
-                </ul>
-            </div>
-            <div class="project">
-                <h3>Book Now <span>| Flutter, Firebase</span> <span class="date">2025 – Present</span></h3>
-                <ul>
-                    <li>Designed and developed the “Book Now” mobile app using Flutter, ensuring a responsive and consistent user interface on both Android and iOS platforms.</li>
-                    <li>Integrated Firebase backend services for real-time database management, user authentication, and secure data storage.</li>
-                    <li>Implemented key features including user registration, login, and booking management to streamline the user experience.</li>
-                    <li>Project is ongoing, with continuous development focused on feature enhancements and thorough testing prior to deployment.</li>
-                </ul>
-            </div>
-        </section>
-        <section>
-            <h2>Technical Skills</h2>
-            <ul class="skills">
-                <li><strong>Languages:</strong> Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS</li>
-                <li><strong>Frameworks:</strong> Flask, Tensorflow, Tailwind CSS</li>
-                <li><strong>Developer Tools:</strong> Git, VS Code, Visual Studio, PyCharm, IntelliJ, Vercel</li>
-                <li><strong>Libraries:</strong> pandas, NumPy, Matplotlib, Streamlit</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
         <div class="container">
-            <p>&copy; 2025 Avi Yadav. All rights reserved.</p>
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <div class="education-content">
+                    <div class="education-details">
+                        <h3>Vellore Institute of Technology</h3>
+                        <p class="degree">Bachelor of Arts in Computer Science, Minor in Business</p>
+                        <p class="cgpa">CGPA (8.03/10)</p>
+                    </div>
+                    <div class="education-meta">
+                        <p>Vellore, Tamil Nadu</p>
+                        <p>2021 - Present</p>
+                    </div>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-content">
+                    <div class="education-details">
+                        <h3>Ryan International School</h3>
+                        <p class="degree">Class 12(Science)</p>
+                    </div>
+                    <div class="education-meta">
+                        <p>Sikar, Rajasthan</p>
+                        <p>2019 - 2020</p>
+                    </div>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="education-content">
+                    <div class="education-details">
+                        <h3>Prince Jai Madhvani Vidyalaya</h3>
+                        <p class="degree">CBSE (Class10)</p>
+                    </div>
+                    <div class="education-meta">
+                        <p>Gargaon, Haryana</p>
+                        <p>2017 - 2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-details">
+                        <h3>Team Levitate Hyperloop (Technical Division)</h3>
+                        <p class="position">Software & Electronics</p>
+                    </div>
+                    <div class="experience-meta">
+                        <p>2024</p>
+                        <p>Vellore</p>
+                    </div>
+                </div>
+                <ul class="experience-tasks">
+                    <li>Develop and maintain high-performance optimization of the official team website.</li>
+                    <li>Focused on rendering 3D visualizations and ensuring real-time interactivity with Three.js.</li>
+                    <li>Assisted in building embedded logic modules for the Hyperloop pod's onboard systems.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div class="experience-details">
+                        <h3>E-Cell, VIT (Entrepreneurship Cell)</h3>
+                        <p class="position">Club Member - Event Coordinator & Outreach</p>
+                    </div>
+                    <div class="experience-meta">
+                        <p>2023</p>
+                        <p>Vellore</p>
+                    </div>
+                </div>
+                <ul class="experience-tasks">
+                    <li>Supported outreach operations and external collaborations for entrepreneurship-based activities.</li>
+                    <li>Helped coordinate flagship events like E-Summit and Falapreneur, including logistics and on-ground coordination.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certification-item">
+                <h3>NPTEL Forest Management</h3>
+                <ul>
+                    <li>Enhanced understanding of sustainable forest management practices, ecological conservation, and resource planning.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Heart Disease Prediction</h3>
+                        <span class="project-date">June 2025 - Present</span>
+                    </div>
+                    <p class="project-tech"><strong>Python, Streamlit</strong></p>
+                    <ul class="project-tasks">
+                        <li>Loaded and preprocessed the heart disease dataset using pandas and numpy, including handling missing values, encoding categorical variables, and scaling numerical features to improve model performance.</li>
+                        <li>Split the dataset into training and testing sets using scikit-learn's train-test-split function to ensure robust model evaluation and prevent data leakage.</li>
+                        <li>Built and trained a logistic regression model using scikit-learn to predict heart disease based on patient health parameters.</li>
+                        <li>Deployed the model using Streamlit to create an interactive web application where users can input health parameters and get real-time heart disease risk prediction based on user-input medical parameters.</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Optical Website Levitate Hyperloop</h3>
+                        <span class="project-date">2024</span>
+                    </div>
+                    <p class="project-tech"><strong>HTML, CSS, JavaScript, Three.js</strong></p>
+                    <ul class="project-tasks">
+                        <li>Contributed to the development and layout structuring of the team's interactive website.</li>
+                        <li>Worked on schema animations and enhancing performance for mobile responsiveness.</li>
+                        <li>Developed interactive 3D models and visualizations using Three.js with an emphasis on usability and clarity.</li>
+                        <li>Link: https://www.teamlevitate.com</li>
+                    </ul>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Book Now</h3>
+                        <span class="project-date">Flutter, Firebase 2025 - Present</span>
+                    </div>
+                    <ul class="project-tasks">
+                        <li>Designed and developed the "Book Now" mobile app using Flutter, ensuring a responsive and consistent user interface on both Android and iOS platforms.</li>
+                        <li>Integrated Firebase backend services for real-time database management, user authentication, and secure data storage.</li>
+                        <li>Implemented key features including user registration, login, and booking management to streamline the user experience.</li>
+                        <li>Proved to ongoing, with continuous development focused on feature enhancements and thorough testing prior to deployment.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <p>Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <p>Flask, TensorFlow, Tailwind CSS</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Developer Tools</h3>
+                    <p>Git, Docker, TravisCI, Google Cloud Platform, VS Code, PyCharm, IntelliJ, Visual Studio</p>
+                </div>
+                <div class="skill-category full-width">
+                    <h3>Libraries</h3>
+                    <p>pandas, NumPy, Matplotlib, Streamlit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section alt-bg">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-description">
+                    I'm always open to discussing new opportunities and interesting projects.
+                </p>
+                <div class="contact-buttons">
+                    <a href="avi5451@gmail.com" class="btn btn-primary">
+                        <span>📧</span>
+                        Email Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/avi-yadav-a10016275/" target="_blank" class="btn btn-secondary">
+                        <span>💼</span>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/Avi-Yadav23" target="_blank" class="btn btn-secondary">
+                        <span>💻</span>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Avi Yadav. All rights reserved.</p>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
