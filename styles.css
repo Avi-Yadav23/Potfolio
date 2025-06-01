@@ -10,7 +10,6 @@ body {
     color: #e2e8f0;
     background-color: #0f0f23;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -57,7 +56,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #06b6d4;
+     color: #06b6d4;
 }
 
 .hamburger {
@@ -162,7 +161,7 @@ body {
 }
 
 .alt-bg {
-    background-color: #1e1e3f;
+     background-color: #1e1e3f;
 }
 
 .section-title {
@@ -184,11 +183,7 @@ body {
 }
 
 .alt-bg .education-item {
-    background: linear-gradient(135deg, #0f0f23, #1e1e3f);
-}
-
-.education-item:hover {
-    transform: translateY(-5px);
+      transform: translateY(-5px);
     border-color: #7c3aed;
     box-shadow: 0 10px 30px rgba(124, 58, 237, 0.3);
 }
@@ -214,13 +209,9 @@ body {
     margin-bottom: 8px;
 }
 
-.cgpa {
-    color: #94a3b8;
-}
-
 .education-meta {
     text-align: right;
-    color: #94a3b8;
+     color: #94a3b8;
 }
 
 /* Experience */
@@ -234,11 +225,11 @@ body {
 }
 
 .section:not(.alt-bg) .experience-item {
-    background: linear-gradient(135deg, #0f0f23, #1e1e3f);
+     background: linear-gradient(135deg, #0f0f23, #1e1e3f);
 }
 
 .experience-item:hover {
-    transform: translateY(-5px);
+     transform: translateY(-5px);
     border-color: #06b6d4;
     box-shadow: 0 10px 30px rgba(6, 182, 212, 0.3);
 }
@@ -255,7 +246,7 @@ body {
 .experience-details h3 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #06b6d4;
+     color: #06b6d4;
     margin-bottom: 8px;
 }
 
@@ -298,7 +289,7 @@ body {
 }
 
 .certification-item:hover {
-    transform: translateY(-5px);
+     transform: translateY(-5px);
     border-color: #a855f7;
     box-shadow: 0 10px 30px rgba(168, 85, 247, 0.3);
 }
@@ -344,7 +335,7 @@ body {
 }
 
 .section:not(.alt-bg) .project-card {
-    background: linear-gradient(135deg, #0f0f23, #1e1e3f);
+     background: linear-gradient(135deg, #0f0f23, #1e1e3f);
 }
 
 .project-card:hover {
@@ -370,7 +361,7 @@ body {
 
 .project-date {
     font-size: 0.875rem;
-    color: #94a3b8;
+     color: #94a3b8;
 }
 
 .project-tech {
